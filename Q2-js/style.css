@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+input{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form{
+    margin: 30px 0 0 30px;
+}
+.button{
+    background-color: rgb(129, 216, 129);
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
