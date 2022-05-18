@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 900px;
+    height: 650px;
+    background-color: rgb(244, 244, 244);
+    margin: 48px auto;
+    box-shadow: 2px 3px 12px 12px rgb(212, 212, 209);
+}
+.container{
+    display: flex;
+
+}
+.images img{
+    width: 450px;
+    height: 650px;
+}
+.label-br{
+    display: block;
+    font-size: 14px;
+}
+.form{
+    margin: 135px 75px;
+}
+.p-lorem{
+    font-size: 13px;
+    color: rgb(177, 176, 176);
+    margin: -7px 0 26px 0;
+}
+input[type="text"],input[type="password"]{
+    width: 314px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: none;
+}
+.checkbox-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+
+}
+.button{
+    width: 314px;
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    align-items: center;
+    background-color: rgb(237, 156, 49);
+    color: white;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* a:visited {
+    color: rgb(130, 130, 130);
+} */
+.checkbox{
+    background-color: rgb(237, 156, 49);
+}
