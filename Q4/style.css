@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(219, 214, 214);
-    margin: 80px 41px; 
+    margin: 168px 205px; 
 }
 .row-one > div{
     width: 80px;
@@ -23,7 +23,7 @@
 .row-one {
     display: flex;
     flex-wrap: wrap;
-    margin: 86px 180px ;
+    margin: 86px 205px ;
 }
 .more{
     font-size: 20px;
@@ -44,11 +44,9 @@
 }
 
 .item{
-    flex: 25%;
+    display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 100%;
-    
+    flex-direction: column;   
 }
 .fa-solid{
     margin-top: -27px;
