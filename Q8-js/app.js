@@ -21,13 +21,10 @@ function Student(name , gender){
     this.gender = gender;
 }
 Student.prototype.age = 30; 
-let studObj = new Student();
-console.log(`studObj.age = ${studObj.age}`);
-
-let studObj2 = new Student();
-console.log(`studObj2.age = ${studObj.age}`);
+let studObj1 = new Student();
+console.log(`studObj1.age = ${studObj1.age}`);
 
 Student.prototype.age = 20;
-let studObj1 = new Student();
-console.log(`studObj3.age = ${studObj.age}`);
+let studObj2 = new Student();
+console.log(`studObj2.age = ${studObj2.age}`);
 
